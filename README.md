@@ -1,6 +1,6 @@
-                                                                 tools flyer
+                                         tools flyer
 
-This program will allow you to install best github hacking tools hope you enjoy it the tool is not completely finish so there will have updating soon! :)
+his program will allow you to install best github hacking tools hope you enjoy it the tool is not completely finish so there will have updating soon! :)
 
 To run on Termux
 
