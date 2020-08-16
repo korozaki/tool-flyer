@@ -8,7 +8,7 @@ git clone https://github.com/korozaki/tool-flyer.git
 
 To run on Termux
 
-cd tool-flyer
+cd tools-flyer
 
 python tool_flyer.py
 
@@ -16,4 +16,4 @@ To run on Kali Linux
 
 cd tool-flyer
 
-python3 tool_flyer.py
+python3 tools_flyer.py
