@@ -1,8 +1,6 @@
 import os
 os.system ("clear")
 
-import 
-
 print("                    Hello dear, Wolcome to Mr Kali Hacking tool")
 import Banner
 print("                               created by Mr kali")
