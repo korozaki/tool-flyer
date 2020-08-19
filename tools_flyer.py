@@ -1,6 +1,8 @@
 import os
 os.system ("clear")
 
+import 
+
 print("                    Hello dear, Wolcome to Mr Kali Hacking tool")
 import Banner
 print("                               created by Mr kali")
@@ -41,7 +43,8 @@ if nm == "1":
     print ("\n \033[0;34m[14]quack:\033[0;37m Powerful tool for sms bomber and HTTP/TCP attacks")
     print ("\n \033[0;34m[15]seeker Termux:\033[0;37m Locate phones Location with this tool")
     print ("\n \033[0;34m[16]seeker:\033[0;37m Locate phones Location with this tool")
-    print ("\n \033[0;34m[00]Ghost : Powerful Ip Exploitation tool ")
+    print ("\n \033[0;34m[17]Ghost: Powerful Ip Exploitation tool ")
+    print ("\n \033[0;34m[18]Xerosploit: Powerful port scanner and attacker")
     print ("\n \033[0;34m[00]exit ")
 #update & upgrade Termux
 if nm == "2":
@@ -200,12 +203,22 @@ if num == "16":
     os.system("git clone https://github.com/thewhiteh4t/seeker.git")
     print("\033[0;32mType 'cd seeker'after type 'chmod 777 termux_install.sh'and finally './install.sh' to run it 'python3 seeker.py -h'")
 #ghost install
-os.system("pkg update && pkg upgrade -y")
+if num == "17":
+    os.system("pkg update && pkg upgrade -y")
     os.system("pkg install git ")
     os.system("pkg install python ")
     os.system("cd")
     os.system("https://github.com/entynetproject/ghost.git")
     print("\033[0;32mType 'cd ghost' after Type'chmod +x install.sh' after './install.sh' and to run it Type 'ghost' ")
+#Xerosploit install
+if num == "18":
+    os.system("pkg update && pkg upgrade -y")
+    os.system("pkg install git ")
+    os.system("pkg install python ")
+    os.system("cd")
+    os.system("git clone https://github.com/LionSec/xerosploit")
+    os.system("cd xerosploit && sudo python install.py")
+    print("Type 'sudo xerosploit' to run it")
 #Exit
 if num == "00":
     exit("\033[0;32mThanks For Using My Tool ^^")
